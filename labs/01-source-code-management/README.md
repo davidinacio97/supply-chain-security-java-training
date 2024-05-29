@@ -25,7 +25,7 @@ git config user.signingkey /PATH/TO/.SSH/KEY.PUB
 ```
 this is a change from david
 another change
-
+another change 
 You're all set to start signing commits. Make a change to your copy of this repository. For example, why not adding a new file into the current folder?
 
 ```shell
