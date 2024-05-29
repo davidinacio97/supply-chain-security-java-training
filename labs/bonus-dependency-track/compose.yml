@@ -12,7 +12,7 @@ services:
     depends_on:
       - dtrack-apiserver
     environment:
-      - API_BASE_URL=http://localhost:9091
+      - API_BASE_URL=https://redesigned-pancake-xrr9pwrr9pjhv7q-9091.app.github.dev
     ports:
       - "9090:8080"
     restart: unless-stopped
