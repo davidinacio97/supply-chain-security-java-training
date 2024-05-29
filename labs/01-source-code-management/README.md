@@ -5,7 +5,6 @@
 * Signing Git commits
 * Verifying Git commits
 
-change - more changes.....
 ## Overview
 
 In this exercise, you will see how to configure your Git repository to sign your commits and how you can verify the signatures to make the Git audit trail trustworthy.
@@ -24,9 +23,7 @@ GitHub actively supports verifying commits signed with GPG, SSH, or S/MIME. In t
 git config gpg.format ssh
 git config user.signingkey /PATH/TO/.SSH/KEY.PUB
 ```
-this is a change from david
-another change
-another change 
+
 You're all set to start signing commits. Make a change to your copy of this repository. For example, why not adding a new file into the current folder?
 
 ```shell
@@ -84,6 +81,3 @@ You can verify the signature via Sigstore.
 ```shell
 git verify-commit HEAD
 ```
-
-
-somme changes
