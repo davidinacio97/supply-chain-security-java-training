@@ -5,6 +5,7 @@
 * Signing Git commits
 * Verifying Git commits
 
+change
 ## Overview
 
 In this exercise, you will see how to configure your Git repository to sign your commits and how you can verify the signatures to make the Git audit trail trustworthy.
